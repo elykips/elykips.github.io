@@ -1,0 +1,72 @@
+body {
+    color: white;
+    font-size: 20px;
+    font-family: 'Baloo Tammudu';font-size: 22px;
+    
+}
+li{
+
+    display: inline;
+    padding: 15px;
+}
+nav{
+    background-color: black;
+    border-radius: 7px;
+}
+a{
+    text-decoration: none;
+    color: white;
+
+}
+a:hover{
+    color:grey;
+}
+html {
+
+    -webkit-transition: background-color 1s;
+    transition: background-color 1s;
+    background-image:url("../media/bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    box-shadow:inset 0 0 0 2000px rgba(30, 29, 29, 0.50);
+}
+
+section{
+    background-color:rgba(0, 0, 0, 0.5);
+    padding: 7px;
+    
+}
+p{
+ text-transform: lowercase;
+ font-family: 'Arial';
+ font-size: 20px;
+}
+
+#mest {
+    background-image: url("../media/mest.jpg") ;
+    background-repeat:  repeat-x;
+    background-attachment: fixed;
+    background-position: center; 
+    padding: 5px;
+    box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.50);
+
+
+}
+#contact {
+    background-image: url("../media/contact.jpg") ;
+    background-repeat:  repeat-x;
+    background-attachment: fixed;
+    background-position: center; 
+    padding: 5px;
+    box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.50);
+
+
+}
+#map{
+  padding: 4px;
+}
+
+#form{
+    padding: 4px;
+}
